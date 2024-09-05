@@ -1,0 +1,37 @@
+li:first-child{
+    font-weight: bolder;
+}
+li:last-child{
+    font-style:italic;
+}
+h1:first-of-type{
+    color:red
+}
+
+body {
+    background-color: white;
+
+}
+
+li:nth-child{
+    color: orangered;
+}
+
+a:hover{
+    color:greenyellow;
+}
+
+a.highlight:hover {
+    color: blue;
+}
+
+#first{
+    color:green;
+    font-size:60px ;
+}
+
+#cool{
+    font-stretch: semi-expanded;
+    color: blue;
+    font-size: 80px;
+}
